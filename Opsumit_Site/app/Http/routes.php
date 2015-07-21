@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@home');
+Route::get('/seraphin_study', 'PagesController@seraphin_study');
+Route::get('/efficacy', 'PagesController@efficacy');
+Route::get('/safety_profile', 'PagesController@safety_profile');
+Route::get('/about', 'PagesController@about');
+Route::get('/prescribing', 'PagesController@prescribing_opsumit');
+Route::get('/services', 'PagesController@services_and_support');
+Route::get('resources', 'PagesController@pah_resources');
+
+
+
