@@ -12,7 +12,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/Users/toclint/Documents/LaravelProjects/laraveltest/Opsumit_Site/"
+    - map: "/Users/celdridge/Documents/LaravelProjects/laraveltest/Opsumit_Site"
       to: "/home/vagrant/laraveltest/Opsumit_Site/"
 
 sites:
