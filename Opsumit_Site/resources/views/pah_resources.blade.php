@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Safety Profile 3.0</title>
+    <title>PAH Resources 7.0</title>
 
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -46,24 +46,15 @@
             window.location.href = nextPage;
         }
 
-
     </script>
 </head>
 <body>
-<div class="container">
-    <ul>
-        <li class="nav" onclick="gotoPage('/')">Home</li>
-        <li class="nav" onclick="gotoPage('/seraphin_study')">Seraphin Study | </li>
-        <li class="nav" onclick="gotoPage('/safety_profile')">Safety Profile | </li>
-        <li class="nav" onclick="gotoPage('/about')">About | </li>
-        <li class="nav" onclick="gotoPage('/prescribing')">Prescribing | </li>
-        <li class="nav" onclick="gotoPage('/services')">Services and Support | </li>
-        <li class="nav" onclick="gotoPage('/resources')">PAH Resources</li>
-    </ul>
-    <br/>
-    <div class="content">
-        <div class="title">Safety Profile 3.0</div>
-    </div>
-</div>
+
+@section('nav')
+
+@section('content')
+
+
+
 </body>
 </html>

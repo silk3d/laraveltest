@@ -57,7 +57,7 @@
         <li class="nav" onclick="gotoPage('/safety_profile')">Safety Profile | </li>
         <li class="nav" onclick="gotoPage('/about')">About | </li>
         <li class="nav" onclick="gotoPage('/prescribing')">Prescribing | </li>
-        <li class="nav" onclick="gotoPage('/services')">Services \/ Support | </li>
+        <li class="nav" onclick="gotoPage('/services')">Services and Support | </li>
         <li class="nav" onclick="gotoPage('/resources')">PAH Resources</li>
     </ul>
     <br/>

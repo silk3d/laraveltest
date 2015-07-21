@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Opsumit 4.0</title>
+    <title>Seraphin Study 1.0</title>
 
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -57,12 +57,12 @@
         <li class="nav" onclick="gotoPage('/safety_profile')">Safety Profile | </li>
         <li class="nav" onclick="gotoPage('/about')">About | </li>
         <li class="nav" onclick="gotoPage('/prescribing')">Prescribing | </li>
-        <li class="nav" onclick="gotoPage('/services')">Services \/ Support | </li>
+        <li class="nav" onclick="gotoPage('/services')">Services and Support | </li>
         <li class="nav" onclick="gotoPage('/resources')">PAH Resources</li>
     </ul>
     <br/>
     <div class="content">
-        <div class="title">About Opsumit 4.0</div>
+        <div class="title">Seraphin Study 1.0</div>
     </div>
 </div>
 </body>

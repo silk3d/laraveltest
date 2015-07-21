@@ -1,5 +1,9 @@
 @extends('app')
 
+@section('title')
+    <title>{{$pageTitle}}</title>
+@stop
+
 @section('nav')
 <ul>
     <li class="nav" onclick="gotoPage('/')">Home</li>
@@ -15,6 +19,6 @@
 
 @section('content')
 <div class="content">
-    <div class="title">{{$first}}&nbsp{{$last}}</div>
+    <div class="title">{{$pageTitle}}</div>
 </div>
 @stop

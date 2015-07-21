@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Safety Profile 3.0</title>
+    <title>Services and Support 6.0</title>
 
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -62,7 +62,7 @@
     </ul>
     <br/>
     <div class="content">
-        <div class="title">Safety Profile 3.0</div>
+        <div class="title">Servics and Support 6.0</div>
     </div>
 </div>
 </body>
