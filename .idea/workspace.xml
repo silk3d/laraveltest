@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1a79ebb-11d8-4145-bda2-ff0926540987" name="Default" comment="Adding initial project files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Listeners/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/migrations/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/seeds/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/views/vendor/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Resources/bin/hiddeninput.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/views/errors/503.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/AbstractDescriptorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/AbstractPipes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/AbstractProcessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/ApplicationTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Tester/ApplicationTesterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/ArgvInputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/ArrayInputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Middleware/Authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/BarBucCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/BufferedOutput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Command/CommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/CommandTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Tester/CommandTesterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleCommandEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/ConsoleEvents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleExceptionEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Logger/ConsoleLoggerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutputInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/ConsoleOutputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleTerminateEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DebugFormatterHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/Descriptor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/DescriptorApplication1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/DescriptorApplication2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/DescriptorCommand1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/DescriptorCommand2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/DescriptorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/DestroyCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DialogHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/DummyOutput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/EditCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Events/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/tests/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/ExceptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/ExecutableFinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ExecutableFinderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Foo1Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Foo2Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Foo3Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Foo4Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Foo5Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/FooCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/FooSubnamespaced1Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/FooSubnamespaced2Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/FoobarCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/FormatterHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/FormatterHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/HaltCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/HelpCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Command/HelpCommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/HelperSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homestead.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/stubs/Homestead.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/InitCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputArgumentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/InputAwareHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputAwareInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputDefinitionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/InputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Console/Commands/Inspire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/InvalidArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Jobs/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/JsonDescriptor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/JsonDescriptorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/LegacyDialogHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/LegacyProgressHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/LegacyTableHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/ListCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Command/ListCommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/stubs/LocalizedVagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/LogicException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/MakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/MarkdownDescriptor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/MarkdownDescriptorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/database/factories/ModelFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/NonStopableProcess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/NullOutput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/NullOutputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/ObjectsProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Formatter/OutputFormatterStyleStackTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Formatter/OutputFormatterStyleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/OutputInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/OutputStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/OutputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Controllers/Auth/PasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/PhpExecutableFinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/PhpExecutableFinderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/PhpProcess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/PhpProcessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/PipeStdinInStdoutStdErrStreamSelect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/PipesInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/ProcessBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessBuilderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/ProcessFailedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessFailedExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProcessHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/ProcessHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessInSigchildEnvironment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/ProcessTimedOutException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/ProcessUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessUtilsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/ProgressBarTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/ProvisionCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Requests/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/ResumeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/RunCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/RuntimeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Shell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/SigchildDisabledProcessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/SigchildEnabledProcessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/SignalListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/SimpleProcessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/SshCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/StatusCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/StreamOutputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Input/StringInputTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/StyleInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/SuspendCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/SymfonyQuestionHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/SymfonyStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Style/SymfonyStyleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableCell.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableSeparator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/TableStyleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/TableTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/TestCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/TextDescriptor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/TextDescriptorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/UnixPipes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/UpCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/UpdateCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/Vagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/WindowsPipes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Descriptor/XmlDescriptorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/stubs/after.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/src/stubs/aliases" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_astext1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_astext2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_asxml1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_asxml2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_gethelp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception3decorated.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_run1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_run2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_run3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_run4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/bootstrap/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/blackfire.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_astext.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/command_asxml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/compile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/create-mysql.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/create-postgres.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/definition_astext.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/definition_asxml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/homestead.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bin/homestead" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/homestead" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/init.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_4.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_argument_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_4.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_definition_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_4.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_5.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_6.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/input_option_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/laraveltest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/output/output_7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/phpspec.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/console/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/process/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/serve-hhvm.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/laravel/homestead/scripts/serve.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Opsumit_Site/resources/views/welcome.blade.php" />
+    </list>
+    <ignored path="laraveltest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="laraveltest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Homestead.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homestead.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6160714">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="30" />
+    <option name="y" value="23" />
+    <option name="width" value="1106" />
+    <option name="height" value="657" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laraveltest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laraveltest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laraveltest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1a79ebb-11d8-4145-bda2-ff0926540987" name="Default" comment="" />
+      <created>1437458132036</created>
+      <option name="number" value="Default" />
+      <updated>1437458132036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="30" y="23" width="1106" height="657" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Adding initial project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding initial project files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Homestead.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6160714">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

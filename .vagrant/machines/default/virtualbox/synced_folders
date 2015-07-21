@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/laraveltest/Opsumit_Site":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/laraveltest/Opsumit_Site","hostpath":"/Users/toclint/Documents/LaravelProjects/laraveltest/Opsumit_Site","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/toclint/Documents/LaravelProjects/laraveltest","disabled":false}}}
