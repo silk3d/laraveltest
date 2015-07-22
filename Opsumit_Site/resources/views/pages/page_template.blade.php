@@ -5,16 +5,21 @@
 @stop
 
 @section('nav')
-<ul>
-    <li class="nav" onclick="gotoPage('/')">Home</li>
-    <li class="nav" onclick="gotoPage('/seraphin_study')">Seraphin Study | </li>
-    <li class="nav" onclick="gotoPage('/safety_profile')">Safety Profile | </li>
-    <li class="nav" onclick="gotoPage('/about')">About | </li>
-    <li class="nav" onclick="gotoPage('/prescribing')">Prescribing | </li>
-    <li class="nav" onclick="gotoPage('/services')">Services and Support | </li>
-    <li class="nav" onclick="gotoPage('/resources')">PAH Resources</li>
-</ul>
-<br/>
+
+    @if (count($navItems))
+        <ul>
+            @foreach($navItems as $navItem)
+                    <li class="nav" onclick="gotoPage('{{$navItem['target']}}')">{{$navItem['name']}}</li>
+                    @if ($navItem['target'] != "/resources")
+                        &nbsp;|&nbsp;
+
+                    @endif
+            @endforeach
+        </ul>
+    @else
+        <p>No Menu items exist.</p>
+    @endif
+
 @stop
 
 @section('content')

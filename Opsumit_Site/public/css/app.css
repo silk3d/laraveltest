@@ -1,0 +1,53 @@
+/* line 1, ../../resources/assets/sass/_navigation.scss */
+.hinav {
+  width: 1024px;
+}
+
+/* line 5, ../../resources/assets/sass/app.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 9, ../../resources/assets/sass/app.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+  font-family: 'Lato';
+}
+
+/* line 18, ../../resources/assets/sass/app.scss */
+.container {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 24, ../../resources/assets/sass/app.scss */
+.content {
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 29, ../../resources/assets/sass/app.scss */
+.title {
+  font-size: 96px;
+}
+
+/* line 33, ../../resources/assets/sass/app.scss */
+li.nav {
+  display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 53, ../../resources/assets/sass/app.scss */
+.box2 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}

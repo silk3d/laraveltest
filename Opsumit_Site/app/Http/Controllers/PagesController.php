@@ -6,46 +6,56 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\NavModel;
 
 class PagesController extends Controller
 {
-    public function about(){
-        $pageTitle = "About Opsumit 4.0.0";
-        return view('pages.page_template', compact('pageTitle'));
+
+    public function home(){
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Home 0.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function seraphin_study(){
-        $pageTitle = "Seraphin Study";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Seraphin Study 1.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function efficacy(){
-        $pageTitle = "Efficacy";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Efficacy 2.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function safety_profile(){
-        $pageTitle = "Safety Profile";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Safety Profile 3.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
-    public function about_opsumit(){
-        $pageTitle = "About Opsumit";
-        return view('pages.page_template', compact('pageTitle'));
+    public function about(){
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "About Opsumit 4.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function prescribing_opsumit(){
-        $pageTitle = "Prescribing Opsumit";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Prescribing Opsumit 5.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function services_and_support(){
-        $pageTitle = "Efficacy";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "Services and Support 6.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function pah_resources(){
-        $pageTitle = "PAH Resources";
-        return view('pages.page_template', compact('pageTitle'));
+        $navItems = NavModel::getNavElements();
+        $pageTitle = "PAH Resources 7.0";
+        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 }
