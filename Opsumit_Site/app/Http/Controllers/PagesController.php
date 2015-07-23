@@ -14,7 +14,7 @@ class PagesController extends Controller
     public function home(){
         $navItems = NavModel::getNavElements();
         $pageTitle = "Home 0.0";
-        return view('pages.page_template', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
+        return view('pages.home', ['navItems'=>$navItems, 'pageTitle'=>$pageTitle]);
     }
 
     public function seraphin_study(){

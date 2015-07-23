@@ -20,30 +20,79 @@ body {
 
 /* line 18, ../../resources/assets/sass/app.scss */
 .container {
+  margin-top: 30px;
   text-align: center;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
-/* line 24, ../../resources/assets/sass/app.scss */
+/* line 25, ../../resources/assets/sass/app.scss */
 .content {
   text-align: center;
   display: inline-block;
 }
 
-/* line 29, ../../resources/assets/sass/app.scss */
+/* line 34, ../../resources/assets/sass/app.scss */
+.home_sections_container {
+  position: absolute;
+  left: 50%;
+  margin-left: -512px;
+  width: 1024px;
+  height: 2000px;
+}
+
+/* line 43, ../../resources/assets/sass/app.scss */
+.template_container {
+  position: relative;
+  float: left;
+  width: 1024px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 52, ../../resources/assets/sass/app.scss */
+.template_panel {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+/* line 62, ../../resources/assets/sass/app.scss */
+.template_textarea {
+  text-align: left;
+  display: inline-block;
+  float: left;
+  width: 824px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 72, ../../resources/assets/sass/app.scss */
+.template_textarea h2 {
+  font-family: 'Lato';
+  font-weight: 900;
+  text-align: center;
+}
+
+/* line 79, ../../resources/assets/sass/app.scss */
 .title {
   font-size: 96px;
 }
 
-/* line 33, ../../resources/assets/sass/app.scss */
+/* line 83, ../../resources/assets/sass/app.scss */
 li.nav {
   display: inline-block;
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 53, ../../resources/assets/sass/app.scss */
+/* line 103, ../../resources/assets/sass/app.scss */
 .box2 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

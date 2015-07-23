@@ -4,59 +4,44 @@
     @yield('title')
 
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="{{URL::asset('css/normalize.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{URL::asset('css/app.css')}}" rel="stylesheet" type="text/css">
 
-    <style>
-        html, body {
-            height: 100%;
-        }
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
 
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            display: table;
-            font-weight: 100;
-            font-family: 'Lato';
-        }
-
-        .container {
-            text-align: center;
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .content {
-            text-align: center;
-            display: inline-block;
-        }
-
-        .title {
-            font-size: 96px;
-        }
-
-        li.nav {
-            display: inline-block;
-            cursor: pointer;
-            cursor: hand;
-        }
-    </style>
-
-    <script>
-        function gotoPage(nextPage) {
-            window.location.href = nextPage;
-        }
-
-
-    </script>
+    <script src="{{ URL::asset('js/isi_scroll.lib.js') }}"></script>
+    <script src="{{ URL::asset('js/opsumit.js') }}"></script>
 </head>
 <body>
+
+@yield('title')
+
 <div class="container">
 
-@yield('nav')
 
-@yield('content')
+    @yield('content')
 
+
+    @if (count($navItems))
+        <ul>
+            @foreach($navItems as $navItem)
+                <li class="nav" onclick="gotoPage('{{$navItem['target']}}')">{{$navItem['name']}}</li>
+                @if ($navItem['target'] != "/resources")
+                    &nbsp;|&nbsp;
+
+                @endif
+            @endforeach
+        </ul>
+    @else
+        <p>No Menu items exist.</p>
+    @endif
+
+        @yield('sections')
 
 </div>
+
+
 </body>
 </html>
