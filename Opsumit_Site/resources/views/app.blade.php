@@ -16,10 +16,12 @@
 </head>
 <body>
 
+@include("shared.navigation")
+
 @yield('title')
 
 <div class="container">
-
+    <div class="home_background">Should be a background image</div>
 
     @yield('content')
 

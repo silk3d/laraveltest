@@ -1,3 +1,159 @@
 .hinav {
   width:1024px;
 }
+
+/************  Navigation bar *******/
+
+$menu_item_width: 120px;
+$menu_item_height: 100px;
+
+
+ul.navigation {
+  width: 100%;
+  max-width: 1024px;
+  min-width: 768px;
+  background-color: #261a3b;
+  height: $menu_item_height;
+  display: table;
+  vertical-align:bottom;
+  text-align: center;
+}
+
+li.nav_logo {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height:$menu_item_height;
+  display:table-cell;
+  vertical-align:bottom;
+  text-align: center;
+  background-color: #0000f6;
+}
+
+li.nav_user_type {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  width: 300px;
+  height:$menu_item_height;
+  display:inline-block;
+  vertical-align:text-bottom;
+  text-align: center;
+  background-color: #0000f6;
+}
+
+li.nav_item {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: right;
+  top: 50%;
+  width: $menu_item_width;
+  height:$menu_item_height;
+  background-color: #008800;
+  display:inline-block;
+  text-align: center;
+}
+
+#usertype_text {
+  position: relative;
+  margin-top: 25%;
+}
+
+#opsumit_menu {
+  margin-top: 37%;
+}
+
+$menu_item_width: 100px;
+
+.menu_item {
+  position: absolute;
+  bottom: 0;
+  width: $menu_item_width;
+  height: 100px;
+  display:table-cell;
+  vertical-align:bottom;
+}
+
+.menu_icon {
+  background-color: red;
+  width: $menu_item_width;;
+  height:100%;
+  max-height: 50px;
+  text-align: center;
+}
+
+.menu_text {
+  background-color: green;
+  width: $menu_item_width;
+  height:auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Opsumit-Bold;
+}
+
+
+#search_share_nav {
+  position: fixed;
+  background-color: #65C400;
+  display: block;
+  z-index: 2000;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 26px;
+  max-width: 1024px;
+  min-width: 460px;
+  background-image: url("../images/search_share_nav_bg.jpg");
+
+  background-size: 1024px 26px;
+  -moz-background-size: 1024px 26px;
+
+  background-repeat: no-repeat;
+ //  background-attachment: fixed;
+  background-position: center top;
+}
+
+#share_bar_wrapper
+{
+  position: fixed;
+  display: block;
+  z-index: 2000;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+  background-color: #636363;
+  width: 100%;
+  height: 26px;
+  text-align: center;
+  #share_bar_left {
+    margin: 0;
+    padding: 0;
+    background-color: #5862a9;
+    width: 30%;
+    height: 26px;
+    position: relative;
+    float: left;
+
+    #share_divider {
+      margin: 0;
+      padding: 0;
+      width: 102px;
+      height: 26px;
+      background-image: url("../images/search_bar_divider.png");
+      background-size: 102px 26px;
+      -moz-background-size: 102px 26px;
+      position: relative;
+      float: right;
+      display: inline-block;
+      height: 26px;
+    }
+  }
+}
+
+
+/************  end navigation ********/

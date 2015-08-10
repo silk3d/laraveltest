@@ -2,6 +2,34 @@
 
 @import '_navigation';
 
+$section_height: 500px;
+
+@font-face {
+  font-family: "Opsumit";
+  src: url("../fonts/Opsumit.eot?#iefix") format("eot"), url("../fonts/Opsumit.ttf") format("truetype"), url("../fonts/Opsumit.svg") format("svg"), url("../fonts/Opsumit.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Opsumit-Bold";
+  src: url("../fonts/Opsumit-Bold.eot?#iefix") format("eot"), url("../fonts/Opsumit-Bold.ttf") format("truetype"), url("../fonts/Opsumit-Bold.svg") format("svg"), url("../fonts/Opsumit-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Opsumit-BoldItalic";
+  src: url("../fonts/Opsumit-BoldItalic.eot?#iefix") format("eot"), url("../fonts/Opsumit-BoldItalic.ttf") format("truetype"), url("../fonts/Opsumit-BoldItalic.svg") format("svg"), url("../fonts/Opsumit-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Opsumit-Italic";
+  src: url("../fonts/Opsumit-Italic.eot?#iefix") format("eot"), url("../fonts/Opsumit-Italic.ttf") format("truetype"), url("../fonts/Opsumit-Italic.svg") format("svg"), url("../fonts/Opsumit-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Opsumit-Heavy";
+  src: url("../fonts/Opsumit-Heavy.eot?#iefix") format("eot"), url("../fonts/Opsumit-Heavy.ttf") format("truetype"), url("../fonts/Opsumit-Heavy.svg") format("svg"), url("../fonts/Opsumit-Heavy.woff") format("woff");
+}
+
+
 html, body {
   height: 100%;
 }
@@ -10,16 +38,97 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: table;
+  // display: table;
   font-weight: 100;
   font-family: 'Lato';
 }
 
-.container {
+
+.desktop {
+  display: visible;
+}
+
+.align_bottom {
+  vertical-align: bottom;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+}
+
+.container_original {
   margin-top: 30px;
   text-align: center;
   display: table-cell;
   vertical-align: top;
+}
+
+
+.site_wrapper {
+  width: 100%;
+  //max-width: 1024px;
+  // height: 558px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+
+  background-image: url("../images/home_background.png");
+   background-size: 1024px 450px;
+   -moz-background-size: 1024px 550px;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  //   background-attachment: fixed;
+}
+
+#sections_container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#base_wrapper, #monotherapy_wrapper, #pah_wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #0000f6;
+}
+
+#pah_wrapper  {
+  background-image: url("../images/pah_pixel_repeat_bg.png");
+  background-repeat: repeat-x;
+}
+
+#monotherapy_wrapper  {
+  background-image: url("../images/monotherapy_pixel_repeat_bg.png");
+  background-repeat: repeat-x;
+}
+
+#patient_support_wrapper {
+  background-image: url("../images/patient_support_bg.jpg");
+  background-repeat: repeat-x;
+
+}
+
+.monotherapy_radial_gradient {
+  background: -webkit-radial-gradient(white, #cecece, #cecece); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(white, #cecece, #cecece); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(white, #cecece, #cecece); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(white, #cecece, #cecece); /* Standard syntax (must be last) */
+}
+
+
+.media_slider {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.content_wrapper {
+  display: table;
+  margin: 0 auto;
+  width: 1024px;
+  height: auto;
 }
 
 .content {
@@ -28,44 +137,223 @@ body {
 }
 
 
+.home_background_original {
+  left: 50px;
+  display: block;
+  position: absolute;
+  width: 1000px;
+  height: auto;
+  background-image: url("http://laraveltest.app/images/home_background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 100;
+}
 
+
+/*******  Buttons  **********/
+
+.prescribing_info_btn {
+  display:block;
+  position: absolute;
+  right:0;
+  width: 330px;
+  height: 55px;
+  background-color: #5862a9;
+  z-index: 10;
+}
+
+.section_pi_btn {
+  display:block;
+  position: absolute;
+  right:0;
+  top: 0px;
+  background-image: url("../images/section_pi_btn.png");
+  background-repeat: no-repeat;
+  background-size: 250px 32px;
+}
+
+.see_efficacy_results_btn {
+  display:block;
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  padding-top: 20px;
+  width: 200px;
+  height: 55px;
+  background-color: #c93861;
+  color:white;
+  z-index: 10;
+}
+
+.subsection_btn {
+  display:block;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  padding-top: 15px;
+  width: 200px;
+  height: 55px;
+  background-color: #c93861;
+  color:white;
+  text-align: center;
+}
+
+
+/*******  end buttons  ********/
+
+.home_background {
+  left: 0px;
+  top: 0px;
+  display: block;
+  position: absolute;
+  width: 2880;
+  height: 857px;
+
+
+  background-size: contain;
+  -moz-background-size: contain;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 2880px;
+  max-height: 857px;
+  z-index: 5;
+
+}
+
+ img.banner_bg {
+   display: block;
+   position: absolute;
+   z-index: -5;
+   margin: 0 auto;
+   width: 700px;
+   height: 200px;
+
+ }
 
 
 .home_sections_container {
   position: absolute;
   left: 50%;
   margin-left: -512px;
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   height: 2000px;
 }
 
+.purple_bg {
+  background-color: #5862a9;
+}
 
-.template_container {
+.white_txt {
+  color: #ffffff;
+}
+
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+
+.template_outer, .isi_outer {
+  text-align: center;
+}
+
+.template_outer {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.template_inner, .isi_inner {
+  display: inline-block;
+  width: 100%;
+  max-width: 1014px;
+  height: 480px;
+  margin: 0;
+  padding: 5px;
+}
+
+
+
+#section1, #section2 #section3, #section4, #section5, #section6 {
   position: relative;
   float: left;
-  width: 1024px;
-  height: 200px;
+  width: 100%;
+  max-width: 1024px;
+  height: 480px;
   margin: 0;
   padding: 0;
 }
 
+#section1_img, #section2_img, #section3_img, #section4_img, #section5_img {
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 45%;
+  height: auto;
+}
+
+#section1_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: auto;
+  max-width: 400px;
+  min-width: 350px;
+}
+
+#section2_img {
+  top: 10%;
+  width: 65%;
+  position: relative;
+  margin-right: 5%;
+}
+
+#section3_img {
+
+  width: 65%;
+  position: relative;
+  float: right;
+}
+
+#section4_img {
+  top: 25%;
+  width: 75%;
+  max-width: 500px;
+  min-width: 350px;
+  position: relative;
+  margin-right: 20%;
+}
+
+
 .template_panel {
   display: inline-block;
-  float: left;
-  width: 200px;
-  height: 200px;
+  position: relative;
+  float: right;
+  width: 65%;
+  // background-color: #006600;
+  opacity: 1;
+  height: 100%;
   margin: 0;
-  margin-top: 10px;
   padding: 0;
+  vertical-align: middle;
 }
 
 .template_textarea {
   text-align: left;
   display: inline-block;
+  position: relative;
   float:left;
-  width: 824px;
+  width: 35%;
   height: 200px;
   margin: 0;
+  margin-top: 7%;
   padding: 0;
 }
 
@@ -74,6 +362,8 @@ body {
   font-weight: 900;
   text-align: center;
 }
+
+
 
 
 .title {
@@ -101,3 +391,100 @@ $font-stack: Helvetica, sans-serif;
 
 
 .box2 { @include box_border(10px); }
+
+.animationScrollMarker {
+  z-index: 200;
+  position: fixed;
+  display: block;
+  right: 0;
+  top: 250px;
+  background-color: #0040D0;
+  width: 5px;
+  height: 5px;
+}
+
+
+.scroll_marker {
+  background-color: #006600;
+  opacity: 0;
+  display:block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 5px;
+}
+
+
+
+h1, h4 {
+  color:#5ea2b3;
+  text-align: left;
+  position: relative;
+  display: block;
+  font-size: 1rem;
+}
+
+h1.home_header {
+  color:#5ea2b3;
+
+  text-align: left;
+  position: relative;
+  display: block;
+  font-size: 5rem;
+  font-family: Opsumit-Bold;
+}
+
+h4 {
+  font-size: .6rem;
+}
+
+
+.slider_item {
+  margin: 2px;
+  width: 18%;
+  height: 100%;
+  max-height: 120px;
+  min-height: 50px;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+
+.slider_item_head, .slider_item_content {
+  padding: 5px;
+  display: block;
+  position: relative;
+  text-align: left;
+  font-family: "Arial Black", arial-black;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.slider_item_head {
+  background-color: #88b6c1;
+  color: white;
+  height: 50px;
+}
+
+.slider_item_content {
+  background-color: #e0e0e0;
+  color:#626262;
+  height: 75px;
+}
+
+.home_sections_container.email {
+    visibility: visible;
+}
+
+
+.section_height {
+    height: 500px;
+}
+
+
+/*********  placeholder styles  *******/
+
+
+

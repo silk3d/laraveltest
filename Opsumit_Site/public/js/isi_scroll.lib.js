@@ -5,6 +5,7 @@ window.currentViewNode = "efficacy-results";
 
     $.fn.isOnScreen = function(){
 
+        /*
         var win = $(window);
 
         var viewport = {
@@ -19,11 +20,12 @@ window.currentViewNode = "efficacy-results";
         bounds.bottom = bounds.top + this.outerHeight();
 
         return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-
+           */
     };    
     
 
      $( window ).scroll(function() {
+         /*
          var iframeTxt = $('#chart2_2_asc_2').html();
          if ( $('.chart2Footer_asc').isOnScreen() == true && iframeTxt.indexOf("viewed") == -1) {
                 $('#chart2_2_asc_2').html("<iframe class='desktop_chart_260' viewed frameborder='0' scrolling='no' src='/sites/all/themes/esbriet_2015b_hcp/js/charts/chart2.2_asc_2/index.html'></iframe>");
@@ -33,7 +35,7 @@ window.currentViewNode = "efficacy-results";
          if ( $('.chart3Footer_asc').isOnScreen() == true && iframe3Txt.indexOf("viewed") == -1) {
                 $('#chart2_2_asc_3').html("<iframe class='desktop_chart_230' viewed frameborder='0' scrolling='no' src='/sites/all/themes/esbriet_2015b_hcp/js/charts/chart2.2_asc_3/index.html'></iframe>");
          }
-
+        */
 
      });
 
