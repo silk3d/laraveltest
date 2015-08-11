@@ -5,18 +5,30 @@
 /************  Navigation bar *******/
 
 $menu_item_width: 120px;
-$menu_item_height: 100px;
+$menu_item_height: 120px;
 
+#navigation_wrapper {
+  background-color: #65C400;
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
 
 ul.navigation {
+  position: relative;
+  display: block;
+
   width: 100%;
   max-width: 1024px;
   min-width: 768px;
-  background-color: #261a3b;
+  list-style-type: none;
   height: $menu_item_height;
-  display: table;
-  vertical-align:bottom;
-  text-align: center;
+
 }
 
 li.nav_logo {
@@ -29,8 +41,15 @@ li.nav_logo {
   display:table-cell;
   vertical-align:bottom;
   text-align: center;
-  background-color: #0000f6;
 }
+
+#logo_img {
+    width:auto;
+    height:120px;
+}
+
+
+
 
 li.nav_user_type {
   margin: 0;
@@ -42,7 +61,7 @@ li.nav_user_type {
   display:inline-block;
   vertical-align:text-bottom;
   text-align: center;
-  background-color: #0000f6;
+  // background-color: #0000f6;
 }
 
 li.nav_item {
@@ -61,7 +80,7 @@ li.nav_item {
 
 #usertype_text {
   position: relative;
-  margin-top: 25%;
+  margin-top: 70px;
 }
 
 #opsumit_menu {
@@ -157,3 +176,146 @@ $menu_item_width: 100px;
 
 
 /************  end navigation ********/
+
+
+.navigation_outer {
+  position: fixed;
+  width: 100%;
+  top: 26px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  z-index: 500;
+  margin: 0 auto;
+}
+
+
+.navigation_inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 1024px;
+  height: 120px;
+  margin: 0;
+  padding: 0px;
+}
+
+ul.navigation li.nav_rems, ul.navigation li.nav_register, ul.navigation li.nav_menu {
+  position:relative;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navigation li.nav_rems {
+  width: 130px;
+  height: 120px;
+  background-image: url("../images/menu_rems_SH.png");
+  background-size: 130px 240px;
+  -moz-background-size: 130px 240px;
+  background-position: 0px 0px;
+
+}
+
+ul.navigation li.nav_register {
+  width: 86px;
+  height:120px;
+  background-image: url("../images/menu_register_sh.png");
+  background-size: 86px 240px;
+  -moz-background-size: 86px 240px;
+  background-position: 0px 0px;
+}
+
+ul.navigation li.nav_menu {
+  width: 62px;
+  height:120px;
+  background-image: url("../images/menu_SH.png");
+  background-size: 62px 240px;
+  -moz-background-size: 62px 240px;
+  background-position: 0px 0px;
+}
+
+.overstate {
+  background-position-y: 120px;
+}
+
+
+ul li.nav_rems:hover {
+  background-position: 0px 120px;
+}
+
+ul li.nav_register:hover {
+  background-position: 0px 119px;
+}
+
+ul li.nav_menu:hover {
+  background-position: 0px 119px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+  $nav_item_width:55px;
+  $nav_item_height:170px;
+  $nav_item_hover_y: 80px;
+
+  li.nav_logo {
+    margin-top: 30px;
+    width:auto;
+    height:$nav_item_width;
+  }
+
+  li.nav_logo #logo_img {
+    width:auto;
+    height:$nav_item_width;
+  }
+
+
+  ul.navigation li.nav_rems {
+    width: $nav_item_width;
+    height: 70px;
+    background-image: url("../images/menu_rems_SH.png");
+    background-size: $nav_item_width $nav_item_height;
+    -moz-background-size: $nav_item_width $nav_item_height;
+    background-position: 0px 0px;
+
+  }
+
+  ul.navigation li.nav_register {
+    width: $nav_item_width;
+    height: 70px;
+    background-image: url("../images/menu_register_sh.png");
+    background-size: $nav_item_width $nav_item_height;
+    -moz-background-size: $nav_item_width $nav_item_height;
+    background-position: 0px 0px;
+  }
+
+  ul.navigation li.nav_menu {
+    width: $nav_item_width;
+    height: 70px;
+    background-image: url("../images/menu_SH.png");
+    background-size: $nav_item_width $nav_item_height;
+    -moz-background-size: $nav_item_width $nav_item_height;
+    background-position: 0px 0px;
+  }
+
+
+
+  ul li.nav_rems:hover {
+    background-position: 0px $nav_item_hover_y;
+  }
+
+  ul li.nav_register:hover {
+    background-position: 0px $nav_item_hover_y;
+  }
+
+  ul li.nav_menu:hover {
+    background-position: 0px $nav_item_hover_y;
+
+  }
+
+
+}
+
+

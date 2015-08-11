@@ -23,76 +23,10 @@
 
 @include("shared.navigation")
 
-<ul class="navigation">
-    <li class="nav_logo">
-        <img src="/images/opsumit_logo.png" width="200" height="90"/>
-    </li>
-
-    <li class="nav_item">
-        <img src="/images/menu_hamburger.svg" width="30" height="30"/>
-    </li>
-    <li class="nav_item">
-        <img src="/images/menu_register.svg" width="30" height="30"/>
-        <p>REGISTER</p>
-    </li>
-    <li class="nav_item">
-        <div id="opsumit_menu">
-            <img src="/images/menu_opsumit_rems.svg" width="30" height="30"/>
-            <p> OPSUMIT REMS </p>
-        </div>
-    </li>
-    <li class="nav_user_type">
-        <p id="usertype_text"> I AM A: US HEALTHCARE PROFESSIONAL </p>
-    </li>
-</ul>
-
 <div class="site_wrapper">
     <div class="content_wrapper">
-        <!--  top Navigation code
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-4 ">
-                    <div class="menu_item">
-                        <img src="/images/opsumit_logo.png" width="200" height="90"/>
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-md-4">
-                    <div class="menu_item">
-                        <div class="menu_text"> I AM A: US HEALTHCARE PROFESSIONAL </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-2 col-md-2 align_bottom">
-
-                        <div class="menu_icon">
-                            <img src="/images/menu_opsumit_rems.svg"/>
-                        </div>
-                        <div class="menu_text">OPSUMIT REMS</div>
-
-                </div>
-
-                <div class="col-sm-1 col-md-1">
-                    <div class="menu_icon">
-                        <img src="/images/menu_register.svg"/>
-                    </div>
-                    <div class="menu_text">REGISTER</div>
-                </div>
-
-                <div class="col-sm-1 col-md-1">
-                    <div class="menu_icon">
-                        <img src="/images/menu_hamburger.svg"/>
-                    </div>
-                    <div class="menu_text">MENU</div>
-                </div>
-            </div>
-
-        </div>
-
-         bottom of navigation code -->
-
-        <div class="container">
+        <div class="container section_width">
             <div class="row section_height">
                 <div class="col-sm-12 col-md-12 ">
 
@@ -152,8 +86,8 @@
 
 </div>
 
-
 @yield('sections')
+
 
 <div class="isi_outer desktop">
     <div class="isi_inner">

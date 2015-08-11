@@ -6,15 +6,12 @@
 
 
 <div class="animationScrollMarker">&nbsp;</div>
+<div class="isiScrollMarker">&nbsp;</div>
 
 
 
 @section('content')
-
 @stop
-
-<br><br><br>
-
 
 @section('sections')
 
@@ -93,6 +90,8 @@
             </div>
 </div>
 
+
+
             <!-- ********  SECTION 5 ********* -->
             <div id="section5_marker" class="scroll_marker">&nbsp;</div>
 <div id="patient_support_wrapper">
@@ -110,6 +109,7 @@
         </div>
 </div>
 
+        <a name="isi_anchor">&nbsp;</a> <!-- anchor for isi to appear in viewport -->
         <!-- **********  END OF SECTIONS **********  -->
 
 
@@ -122,10 +122,15 @@
 
 
            var s1, s2, s3, s4, s5;
+           var all_sections_animated = false;
+           var section_animation_state = {};
+           var isi_footer_visible = true;
+
 
 
                 for(var sNum = 1; sNum <= SECTIONS; sNum++) {
                     this["s"+sNum] = new TimelineLite({paused:true});
+                    section_animation_state["s"+sNum] = 0;
 
                     this["s"+sNum].add(TweenMax.from(document.getElementById("section" + sNum + "_img"), ANIMATION_SPEED, {
                         alpha: 0,
@@ -138,71 +143,93 @@
                         ease: Power2.easeOut
                     }));
 
-                    /*
-                    this["s"+sNum].add(TweenMax.from(document.getElementById("section" + sNum + "_title"), ANIMATION_SPEED, {
-                        x: -500,
-                        alpha: 0,
-                        ease: Power2.easeOut,
-                        delay:.2
-                    }));
-                    */
-
-
-
-/*
-                    this["s"+sNum].add(TweenMax.from(document.getElementById("section" + sNum + "_subtitle"), ANIMATION_SPEED, {
-                        alpha: 0,
-                        ease: Power2.easeOut,
-                        delay:.4
-                    }));
-*/
                     this["s"+sNum].add(TweenMax.from(document.getElementById("section" + sNum + "_btn"), ANIMATION_SPEED, {
                         alpha: 0,
                         ease: Power2.easeOut,
                         delay:.3
                     }));
 
-                    /*
-                    this["s"+sNum].add(TweenMax.from(document.getElementById("section" + sNum + "_hr"), ANIMATION_SPEED, {
-                        alpha: 0,
-                        ease: Power2.easeOut,
-                        delay:0
-                    }));
-                    */
-
                     console.log("creating tween s" + sNum);
                 }
+
+           function checkIfAnimationsComplete() {
+               for(var sNum = 1; sNum <= SECTIONS; sNum++) {
+                   if (section_animation_state["s" + sNum] == 0)
+                       return;
+               }
+               all_sections_animated = true;
+           }
+
+
+           function scrollToAnchor(aid){
+               var headerHeight = -160;
+               var aTag = $("a[name='"+ aid +"']");
+               $('html,body').animate({scrollTop: (aTag.offset().top+ headerHeight)},'slow');
+           }
+
+
+           var isi_click_flag = false;
 
            $(document).ready(function(){
 
 
                $(window).scroll(function(){
-                   var marker = $(".animationScrollMarker");
+
+
+                   var isi_marker = $(".isiScrollMarker");
+                   var isi_MarkerPosition = isi_marker.position();
+
+                   var isiTopValue = $( "#isi_marker" ).offset().top - $( document ).scrollTop();
+
+                   isiTopValue >= isi_MarkerPosition.top ? $("#isi_footer").fadeIn() : $("#isi_footer").fadeOut();
+
+
+                  var marker = $(".animationScrollMarker");
                   var markerPosition = marker.position();
-                    // console.log("maker position " + markerPosition.top)
 
-                   //var markerPosition = $( ".animationScrollMarker" ).offset().top - $( document ).scrollTop();
+                   // console.log("sections animated: " + all_sections_animated);
 
-                   for(var sIndex = 1; sIndex <= window.SECTIONS; sIndex++) {
-                       var topValue = $( "#section"+ sIndex + "_marker" ).offset().top - $( document ).scrollTop();
+                   if( !all_sections_animated ) {
+                       for(var sIndex = 1; sIndex <= window.SECTIONS; sIndex++) {
+                           var topValue = $( "#section"+ sIndex + "_marker" ).offset().top - $( document ).scrollTop();
+                           if( topValue >= markerPosition.top) {
+                               // window["s"+sIndex].reverse();
+                           } else if( topValue < markerPosition.top) {
+                               window["s"+sIndex].play();
+                               section_animation_state["s"+sIndex] = 1;
+                               checkIfAnimationsComplete();
+                           }
+                       }
+                    }
+                   /*********  isi footer code **********/
 
-                       console.log("sIndex " + sIndex + " sectionTop: " + topValue + " markerTop: " + parseInt(markerPosition.top)  );
-                       if( topValue >= markerPosition.top) {
-                           // window["s"+sIndex].reverse();
-                       } else if( topValue < markerPosition.top) {
-                           window["s"+sIndex].play();
+                   $(".isi_expand_btn").bind('touchstart click', function(e){
+                       e.stopPropagation(); e.preventDefault();
+
+                       if (!window.isi_click_flag) {
+                           window.isi_click_flag = true;
+                           setTimeout(function(){ window.isi_click_flag = false; }, 100);
+                           window.scrollToAnchor('isi_anchor');
+                           console.log("you clicked isi expand button");
 
                        }
-                   }
+
+                       return false;
+                   });
+
+
 
 
                })
            })
 
 
+
+
+
            function checkEm() {
 
-               console.log("checkEm marker1 top " +topValue );
+               //console.log("checkEm marker1 top " +topValue );
            }
 
           //  setInterval(checkEm, 1000)
@@ -213,7 +240,7 @@
            }
 
            function animateSection( num ) {
-                console.log("animating num:" + num)
+               // console.log("animating num:" + num)
                this["s"+num].play();
            }
 

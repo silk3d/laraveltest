@@ -1,6 +1,7 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @import '_navigation';
+@import '_isi';
 
 $section_height: 500px;
 
@@ -71,10 +72,10 @@ body {
   display: inline-block;
   vertical-align: top;
 
-  background-image: url("../images/home_background.png");
-   background-size: 1024px 450px;
-   -moz-background-size: 1024px 550px;
-  background-repeat: no-repeat;
+  background-image: url("../images/card1_sky.png");
+   background-size: 1500px 450px;
+   -moz-background-size: 1500px 550px;
+  background-repeat: repeat-y;
   background-position: center top;
 
   //   background-attachment: fixed;
@@ -153,13 +154,20 @@ body {
 
 /*******  Buttons  **********/
 
+$pi_btn_width:230px;
+$pi_btn_height: 35px;
+
 .prescribing_info_btn {
+  margin-top: -20px;
   display:block;
   position: absolute;
+  background-image: url("../images/prescribing_info_btn.png");
+  background-repeat: no-repeat;
+  background-size: $pi_btn_width $pi_btn_height;
   right:0;
-  width: 330px;
-  height: 55px;
-  background-color: #5862a9;
+  width: $pi_btn_width;
+  height: $pi_btn_height;
+  // background-color: #5862a9;
   z-index: 10;
 }
 
@@ -481,6 +489,10 @@ h4 {
 
 .section_height {
     height: 500px;
+}
+
+.section_width {
+  width: 1024px;
 }
 
 

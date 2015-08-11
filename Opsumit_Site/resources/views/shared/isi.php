@@ -1,77 +1,99 @@
-<h1>Important Safety Information</h1>
+
+<div id="isi_marker" class="scroll_marker">&nbsp;</div>
+
+<div class="isi_outer">
+    <div class="isi_inner">
+
+        <div id="isi_box_heading"><h4>IMPORTANT SAFETY INFORMATION</h4><div id="boxed_warning"><h4>BOXED WARNING: EMBRYO-FETAL TOXICITY</h4>
+                <ul>
+                    <li>Do not administer OPSUMIT to a pregnant female because it may cause fetal harm.</li>
+                    <li>Females of reproductive potential: Exclude pregnancy before the start of treatment, monthly during treatment, and 1 month after stopping treatment. Prevent during treatment and for one month after stopping treatment by using acceptable methods of contraception. </li>
+                    <li>For all female patients, OPSUMIT is available only through a restricted program called the OPSUMIT Risk Evaluation and Mitigation Strategy (REMS).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="indication"><h4>INDICATION</h4>
+            <p>OPSUMIT is an endothelin receptor antagonist (ERA) indicated for the treatment of pulmonary arterial hypertension (PAH, WHO Group I) to delay disease progression. Disease progression included: death, initiation of intravenous (IV) or subcutaneous prostanoids, or clinical worsening of PAH (decreased 6-minute walk distance, worsened PAH symptoms and need for additional PAH treatment). OPSUMIT also reduced hospitalization for PAH.</p>
+            <p>Effectiveness was established in a long-term study in PAH patients with predominantly WHO Functional Class II-III symptoms treated for an average of 2 years. Patients were treated with OPSUMIT monotherapy or in combination with phosphodiesterase-5 inhibitors or inhaled prostanoids. Patients had idiopathic and heritable PAH (57%), PAH caused by connective tissue disorders (31%), and PAH caused by congenital heart disease with repaired shunts (8%).</p>
+        </div>
+
+        <div id="isi_content">
+            <h4>CONTRAINDICATIONS</h4>Pregnancy: OPSUMIT may cause fetal harm when administered to a pregnant woman. OPSUMIT is contraindicated in females who are pregnant. If OPSUMIT is used during pregnancy, apprise the patient of the potential hazard to a fetus.
+            <h4>WARNINGS AND PRECAUTIONS</h4>
+            <h4>Embryo-fetal Toxicity and OPSUMIT REMS Program </h4> Due to the risk of embryo-fetal toxicity, OPSUMIT is available for females only through a restricted program called the OPSUMIT REMS Program. For females of reproductive potential, exclude pregnancy prior to initiation of therapy, ensure use of acceptable contraceptive methods, and obtain monthly pregnancy tests.
+            Notable requirements of the OPSUMIT REMS Program include:
+            <ul>
+                <li><span class="li_block">■</span>Prescribers must be certified with the program by enrolling and completing training.</li>
+                <li><span class="li_block">■</span>All females, regardless of reproductive potential, must enroll in the OPSUMIT REMS Program prior to initiating OPSUMIT.  Male patients are not enrolled in the REMS.</li>
+                <li><span class="li_block">■</span>Females of reproductive potential must comply with the pregnancy testing and contraception requirements.</li>
+                <li><span class="li_block">■</span>Pharmacies must be certified with the program and must only dispense to patients who are authorized to receive OPSUMIT.</li>
+            </ul>
+            <h4>Hepatotoxicity</h4>
+                <ul>
+                    <li><span class="li_block">■</span>Other ERAs have caused elevations ofaminotransferases, hepatotoxicity, and liver failure. The incidence of elevated aminotransferases in the SERAPHIN study >3 × ULN was 3.4% for OPSUMIT vs 4.5% for placebo, and >8 × ULN was 2.1% vs 0.4%, respectively. Discontinuations for hepatic adverse events were 3.3% for OPSUMIT vs 1.6% for placebo.</li>
+                    <li><span class="li_block">■</span>Obtain liver enzyme tests prior to initiation of OPSUMIT and repeat during treatment as clinically indicated.</li>
+                    <li><span class="li_block">■</span>Advise patients to report symptoms suggesting hepatic injury (nausea, vomiting, right upper quadrant pain, fatigue, anorexia, jaundice, dark  urine, fever, or itching).</li>
+                    <li><span class="li_block">■</span>If clinically relevant aminotransferase elevations occur, or if elevations are accompanied by an increase in bilirubin >2 × ULN, or by clinical symptoms of hepatotoxicity, discontinue OPSUMIT. Consider re-initiation of OPSUMIT when hepatic enzyme levels normalize in patients who have not experienced clinical symptoms of hepatotoxicity.</li>
+                </ul>
+                <h4>Hemoglobin Decrease</h4>
+
+                <ul>
+                    <li><span class="li_block">■</span>Decreases in hemoglobin concentration and hematocrit have occurred following administration of other ERAs and in clinical studies       with OPSUMIT. These decreases occurred early and stabilized thereafter</li>
+                    <li><span class="li_block">■</span>In the SERAPHIN study, OPSUMIT caused a  mean decrease in hemoglobin (from baseline to 18 months) of about 1.0 g/dL vs no change       in the placebo group. A decrease in hemoglobin to below 10.0 g/dL was reported in 8.7% of the OPSUMIT group vs 3.4% for placebo.     Decreases in hemoglobin seldom require transfusion.</li>
+                    <li><span class="li_block">■</span>Initiation of OPSUMIT is not recommended in patients with severe anemia. Measure hemoglobin prior to initiation of treatment and repeat during treatment as clinically indicated.</li>
+                </ul>
+
+                <h4>Pulmonary Edema with Pulmonary Veno-occlusive Disease (PVOD)</h4>
+                Should signs of pulmonary edema occur, consider the possibility of associated PVOD. If confirmed, discontinue OPSUMIT.
+
+                <h4>Decreased Sperm Counts</h4>
+                Other ERAs have caused adverse effects on spermatogenesis. Counsel men about potential effects on fertility.
+
+                <h4>ADVERSE REACTIONS</h4>
+                Most common adverse reactions (more frequent than placebo by ≥3%) were anemia (13% vs 3%), nasopharyngitis/pharyngitis (20% vs 13%), bronchitis (12% vs 6%), headache (14% vs 9%), influenza (6% vs 2%), and urinary tract infection (9% vs 6%).
+
+                <h4>DRUG INTERACTIONS</h4>
+            <ul>
+                <li><span class="li_block">■</span>Strong inducers of CYP3A4 such as rifampin significantly reduce macitentan exposure. Concomitant use of OPSUMIT with strong CYP3A4     inducers should be avoided.
+                <li><span class="li_block">■</span>Strong inhibitors of CYP3A4 like ketoconazole approximately double macitentan exposure. Many HIV drugs like ritonavir are strong inhibitors of  CYP3A4. Avoid concomitant use of OPSUMIT with strong CYP3A4 inhibitors. Use other PAH treatment options when strong CYP3A4 inhibitors are needed as part of HIV treatment. Please see full Prescribing Information, including BOXED WARNING for embryo-fetal toxicity.
+            </ul>
+        </div>
+    </div>
+</div>
 
 
-<h2>What is OPSUMIT?</h2>
-
-OPSUMIT is a prescription medicine used to treat pulmonary arterial hypertension (PAH, WHO Group 1). PAH is high blood pressure in the arteries of your lungs. OPSUMIT can:
-Improve your ability to exercise as measured by the 6-minute walk distance (6MWD). In a clinical study of mainly WHO FC II-III patients, those taking OPSUMIT walked, on average, 22 meters farther at Month 6 than patients not taking it
-Improve some of your symptoms
-Help slow down the progression of your disease. Disease progression included the need for injectable PAH medication or other worsening of PAH (decreased 6MWD, PAH symptoms getting worse, and the need for new PAH treatment)
-Lower your chance of being hospitalized for PAH
-It is not known if OPSUMIT is safe and effective in children.
-What is the most important information about OPSUMIT® (macitentan)?
 
 
-OPSUMIT can cause serious birth defects if taken during pregnancy.
-Females must not be pregnant when starting OPSUMIT or get pregnant while taking OPSUMIT
-Females who are able to get pregnant must have a negative pregnancy test before starting OPSUMIT, each month while taking OPSUMIT, and for 1 month after stopping OPSUMIT. Talk to your healthcare provider about your menstrual cycle. Your healthcare provider will decide when to do the pregnancy tests
-Females who are able to get pregnant are females who have entered puberty, even if they have not started their period, and have a uterus, and have not gone through menopause (defined as not having had a period for at least 12 months for natural reasons, or having had ovaries removed)
-Females who are not able to get pregnant are females who have not yet entered puberty, or do not have a uterus, or have gone through menopause (defined as not having had a period for at least 12 months for natural reasons, or having had ovaries removed)
-Females who are able to get pregnant must use 2 acceptable forms of birth control during treatment with OPSUMIT and for 1 month after stopping OPSUMIT because the medicine may still be in the body. Females who have had a tubal sterilization, a progesterone implant, or have an IUD (intrauterine device) can use these methods alone without any other form of birth control.
-Talk with your healthcare provider to find out about options for acceptable birth control that you may use to prevent pregnancy during treatment with OPSUMIT.
-See the OPSUMIT Medication Guide for acceptable birth control options
-Do not have unprotected sex. Talk to your healthcare provider or pharmacist right away if you have unprotected sex or if you think your birth control has failed. Your healthcare provider may talk with you about using emergency birth control
-Tell your healthcare provider right away if you miss a menstrual period or think you may be pregnant for any reason
-
-If you are the parent or caregiver of a female child who started taking OPSUMIT before reaching puberty, you should check your child regularly to see if she is developing signs of puberty. Your child may reach puberty before having her first menstrual period. Talk to your healthcare provider if you think your child is developing signs of puberty or if you have any questions about the signs of puberty.
 
 
-Females can only receive OPSUMIT through a restricted program called the OPSUMIT Risk Evaluation and Mitigation Strategy (REMS) Program. If you are a female who can get pregnant, you must talk to your healthcare provider, understand the benefits and risks of OPSUMIT, and agree to all of the instructions in the OPSUMIT REMS Program.
+
+        <div id="isi_footer" class="isi_footer_outer">
+    <div class="isi_footer_inner">
+        <div class="isi_expand_btn">&nbsp;</div>
+        <div id="isi_box_heading_footer"><h4>IMPORTANT SAFETY INFORMATION</h4><div id="boxed_warning_footer"><h4>BOXED WARNING: EMBRYO-FETAL TOXICITY</h4>
+                <ul>
+                    <li><span class="li_block">■</span>Do not administer OPSUMIT to a pregnant female because it may cause fetal harm.</li>
+                    <li><span class="li_block">■</span>Females of reproductive potential: Exclude pregnancy before the start of treatment, monthly during treatment, and 1 month after stopping treatment. Prevent during treatment and for one month after stopping treatment by using acceptable methods of contraception. </li>
+                    <li><span class="li_block">■</span>For all female patients, OPSUMIT is available only through a restricted program called the OPSUMIT Risk Evaluation and Mitigation Strategy (REMS).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="indication_footer"><h4>INDICATION</h4>
+            <p>OPSUMIT is an endothelin receptor antagonist (ERA) indicated for the treatment of pulmonary arterial hypertension (PAH, WHO Group I) to delay disease progression. Disease progression included: death, initiation of intravenous (IV) or subcutaneous prostanoids, or clinical worsening of PAH (decreased 6-minute walk distance, worsened PAH symptoms and need for additional PAH treatment). OPSUMIT also reduced hospitalization for PAH.</p>
+           <p>Effectiveness was established in a long-term study in PAH patients with predominantly WHO Functional Class II-III symptoms treated for an average of 2 years. Patients were treated with OPSUMIT monotherapy or in combination with phosphodiesterase-5 inhibitors or inhaled prostanoids. Patients had idiopathic and heritable PAH (57%), PAH caused by connective tissue disorders (31%), and PAH caused by congenital heart disease with repaired shunts (8%).</p>
+         </div>
 
 
-Males can receive OPSUMIT without taking part in the OPSUMIT REMS Program.
-
-<strong>Who should not take OPSUMIT?</strong>
 
 
-Do not take OPSUMIT if you are pregnant, plan to become pregnant, or become pregnant during treatment with OPSUMIT.
-OPSUMIT can cause serious birth defects. See "What is the most important information about OPSUMIT?"
 
 
-Tell your healthcare provider about all your medical conditions and all the medicines you take, including prescription and nonprescription medicines, vitamins, and herbal supplements. OPSUMIT and other medicines may affect each other causing side effects. Do not start any new medicine until you check with your healthcare provider. Especially tell your healthcare provider if you take an HIV medicine.
-
-What should I avoid while taking OPSUMIT?
-
-
-Do not get pregnant. OPSUMIT can cause serious birth defects. See "What is the most important information about OPSUMIT?"
-If you miss a menstrual period, or think you might be pregnant, call your healthcare provider right away
-You should not breast-feed if you take OPSUMIT. It is not known if OPSUMIT passes into breast milk. Talk to your healthcare provider about the best way to feed your baby if you take OPSUMIT
-
-What are the possible side effects of OPSUMIT?
+    </div>
+</div>
 
 
-<strong>OPSUMIT can cause serious side effects, including:</strong>
 
 
-Serious birth defects. See “What is the most important information about OPSUMIT?”
-Some medicines that are like OPSUMIT can cause liver problems. Your healthcare provider should do blood tests to check your liver before you start taking OPSUMIT. Tell your healthcare provider if you have any of the following symptoms of liver problems while taking OPSUMIT:
-− Nausea or vomiting
-− Pain in the upper right stomach
-− Tiredness
-− Loss of appetite
-− Your skin or the whites of your eyes turn yellow
-− Dark urine
-− Fever
-− Itching
-Low red blood cell levels (anemia) can happen with OPSUMIT treatment, usually during the first weeks after starting therapy with OPSUMIT. In some cases a blood transfusion may be needed, but this is not common. Your healthcare provider will do blood tests to check your red blood cells before you start OPSUMIT and may also need to do these tests while you are taking OPSUMIT
-Sperm count reduction. Reduced sperm counts have been observed in some men taking a medicine similar to OPSUMIT, an effect which might impair their ability to father a child. Tell your healthcare provider if remaining fertile is important to you
 
-The most common side effects of OPSUMIT are:
-
-Stuffy nose or sore throat, irritation of the airways (bronchitis), headache, flu, and urinary tract infection
-
-
-Tell your healthcare provider about any side effect that bothers you or does not go away. These are not all the possible side effects of OPSUMIT. For more information, ask your healthcare provider or pharmacist.
-Call your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.
-
-Please see full Prescribing Information and Medication Guide, including an Important Warning about Serious Birth Defects.
