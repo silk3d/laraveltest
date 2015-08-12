@@ -88,7 +88,6 @@
 
 @yield('sections')
 
-
 <div class="isi_outer desktop">
     <div class="isi_inner">
         @include('shared.isi')

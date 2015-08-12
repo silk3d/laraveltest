@@ -49,6 +49,10 @@ body {
   display: visible;
 }
 
+.mobile {
+  display: none;
+}
+
 .align_bottom {
   vertical-align: bottom;
   position: absolute;
@@ -323,20 +327,24 @@ $pi_btn_height: 35px;
   margin-right: 5%;
 }
 
-#section3_img {
 
-  width: 65%;
-  position: relative;
-  float: right;
-}
-
-#section4_img {
+#section3_img, #section4_img, #section5_img {
   top: 25%;
   width: 75%;
   max-width: 500px;
   min-width: 350px;
   position: relative;
   margin-right: 20%;
+}
+
+#section3_img {
+  top: 10%;
+  width: 65%;
+}
+
+#section5_img {
+  top: 15%;
+  margin-right: 10%;
 }
 
 

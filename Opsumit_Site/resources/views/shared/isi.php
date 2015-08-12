@@ -1,14 +1,13 @@
 
 <div id="isi_marker" class="scroll_marker">&nbsp;</div>
-
 <div class="isi_outer">
     <div class="isi_inner">
 
         <div id="isi_box_heading"><h4>IMPORTANT SAFETY INFORMATION</h4><div id="boxed_warning"><h4>BOXED WARNING: EMBRYO-FETAL TOXICITY</h4>
                 <ul>
-                    <li>Do not administer OPSUMIT to a pregnant female because it may cause fetal harm.</li>
-                    <li>Females of reproductive potential: Exclude pregnancy before the start of treatment, monthly during treatment, and 1 month after stopping treatment. Prevent during treatment and for one month after stopping treatment by using acceptable methods of contraception. </li>
-                    <li>For all female patients, OPSUMIT is available only through a restricted program called the OPSUMIT Risk Evaluation and Mitigation Strategy (REMS).</li>
+                    <li><span class="li_block">■</span>Do not administer OPSUMIT to a pregnant female because it may cause fetal harm.</li>
+                    <li><span class="li_block">■</span>Females of reproductive potential: Exclude pregnancy before the start of treatment, monthly during treatment, and 1 month after stopping treatment. Prevent during treatment and for one month after stopping treatment by using acceptable methods of contraception. </li>
+                    <li><span class="li_block">■</span>For all female patients, OPSUMIT is available only through a restricted program called the OPSUMIT Risk Evaluation and Mitigation Strategy (REMS).</li>
                 </ul>
             </div>
         </div>

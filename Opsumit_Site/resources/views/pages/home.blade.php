@@ -109,7 +109,7 @@
         </div>
 </div>
 
-        <a name="isi_anchor">&nbsp;</a> <!-- anchor for isi to appear in viewport -->
+        <a id="isi_anchor_style" name="isi_anchor">&nbsp;</a> <!-- anchor for isi to appear in viewport -->
         <!-- **********  END OF SECTIONS **********  -->
 
 
@@ -172,6 +172,29 @@
 
            $(document).ready(function(){
 
+               $("#popup_main_menu").hide();
+
+               $(".isi_expand_btn").bind('touchstart click', function(e){
+                   e.stopPropagation(); e.preventDefault();
+
+                   if (!window.isi_click_flag) {
+                       window.isi_click_flag = true;
+                       setTimeout(function(){ window.isi_click_flag = false; }, 100);
+                       window.scrollToAnchor('isi_anchor');
+                       console.log("you clicked isi expand button");
+
+                   }
+
+                   return false;
+               });
+
+               $(".nav_menu").bind('touchstart click', function(e){
+                   e.stopPropagation(); e.preventDefault();
+                   $("#popup_main_menu").show();
+               });
+
+
+
 
                $(window).scroll(function(){
 
@@ -201,24 +224,6 @@
                            }
                        }
                     }
-                   /*********  isi footer code **********/
-
-                   $(".isi_expand_btn").bind('touchstart click', function(e){
-                       e.stopPropagation(); e.preventDefault();
-
-                       if (!window.isi_click_flag) {
-                           window.isi_click_flag = true;
-                           setTimeout(function(){ window.isi_click_flag = false; }, 100);
-                           window.scrollToAnchor('isi_anchor');
-                           console.log("you clicked isi expand button");
-
-                       }
-
-                       return false;
-                   });
-
-
-
 
                })
            })

@@ -35,23 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45592165" vertical-offset="2680" max-vertical-offset="5453">
-              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.163636" vertical-offset="2909" max-vertical-offset="5548">
+              <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding>
-                <marker date="1439330688000" expanded="true" signature="6623:8607" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="6634:8606" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="6669:8593" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="7044:8592" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="7544:7632" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="7679:7893" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="8645:8723" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="8821:8873" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="8919:9022" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="9056:9214" placeholder="..." />
-                <marker date="1439330688000" expanded="true" signature="9248:9390" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="6645:8772" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="6702:8771" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="7464:8758" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="7839:8757" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="8339:8427" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="8474:8688" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="8810:8888" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="8986:9038" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="9084:9187" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="9221:9379" placeholder="..." />
+                <marker date="1439333810000" expanded="true" signature="9413:9555" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -60,8 +60,8 @@
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2875" vertical-offset="4791" max-vertical-offset="9652">
-              <caret line="266" column="10" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
+            <state vertical-scroll-proportion="-2.5" vertical-offset="4911" max-vertical-offset="9804">
+              <caret line="269" column="17" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <file leaf-file-name="_isi.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/_isi.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="1483" max-vertical-offset="3591">
-              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+            <state vertical-scroll-proportion="-7.6" vertical-offset="0" max-vertical-offset="3762">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="home_master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home_master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.214285" vertical-offset="798" max-vertical-offset="2185">
-              <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.3571428" vertical-offset="779" max-vertical-offset="2166">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
       <file leaf-file-name="isi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/shared/isi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6909091" vertical-offset="0" max-vertical-offset="3154">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.34545454" vertical-offset="0" max-vertical-offset="2565">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -100,18 +100,18 @@
       <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/shared/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1445783" vertical-offset="0" max-vertical-offset="855">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="28" />
+            <state vertical-scroll-proportion="-7.554217" vertical-offset="0" max-vertical-offset="1045">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-55.254547" vertical-offset="2642" max-vertical-offset="6213">
-              <caret line="299" column="33" selection-start-line="299" selection-start-column="33" selection-end-line="299" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5325132" vertical-offset="5911" max-vertical-offset="7258">
+              <caret line="343" column="21" selection-start-line="343" selection-start-column="21" selection-end-line="343" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -120,7 +120,7 @@
       <file leaf-file-name="PagesContentModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/PagesContentModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429" vertical-offset="57" max-vertical-offset="1026">
+            <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1026">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -144,14 +144,14 @@
       <list>
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/page_template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/shared/navigation.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/_isi.sass" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/_navigation.scss" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/_isi.scss" />
         <option value="$PROJECT_DIR$/resources/views/shared/isi.php" />
         <option value="$PROJECT_DIR$/resources/views/home_master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/_isi.scss" />
         <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/_navigation.scss" />
+        <option value="$PROJECT_DIR$/resources/views/shared/navigation.php" />
       </list>
     </option>
   </component>
@@ -165,10 +165,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2086" />
-    <option name="y" value="23" />
-    <option name="width" value="1655" />
-    <option name="height" value="1337" />
+    <option name="x" value="-2494" />
+    <option name="y" value="29" />
+    <option name="width" value="2232" />
+    <option name="height" value="1352" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -412,7 +412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2086" y="23" width="1655" height="1337" extended-state="0" />
+    <frame x="-2494" y="29" width="2232" height="1352" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -422,7 +422,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29572225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21780822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -471,17 +471,17 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="4883">
           <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding>
-            <marker date="1439330688000" expanded="true" signature="6623:8607" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="6634:8606" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="6669:8593" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7044:8592" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7544:7632" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7679:7893" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8645:8723" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8821:8873" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8919:9022" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="9056:9214" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="9248:9390" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="6645:8772" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="6702:8771" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="7464:8758" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="7839:8757" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8339:8427" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8474:8688" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8810:8888" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8986:9038" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9084:9187" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9221:9379" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9413:9555" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -582,14 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/PagesContentModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429" vertical-offset="57" max-vertical-offset="1026">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/page_template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="1026">
@@ -606,71 +598,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2875" vertical-offset="4791" max-vertical-offset="9652">
-          <caret line="266" column="10" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-55.254547" vertical-offset="2642" max-vertical-offset="6213">
-          <caret line="299" column="33" selection-start-line="299" selection-start-column="33" selection-end-line="299" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1445783" vertical-offset="0" max-vertical-offset="855">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/_isi.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="1483" max-vertical-offset="3591">
-          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/isi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6909091" vertical-offset="0" max-vertical-offset="3154">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.6" vertical-offset="0" max-vertical-offset="3762">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home_master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.214285" vertical-offset="798" max-vertical-offset="2185">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        <state vertical-scroll-proportion="-1.3571428" vertical-offset="779" max-vertical-offset="2166">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/isi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.34545454" vertical-offset="0" max-vertical-offset="3173">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45592165" vertical-offset="2680" max-vertical-offset="5453">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+        <state vertical-scroll-proportion="-15.163636" vertical-offset="2909" max-vertical-offset="5548">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
-            <marker date="1439330688000" expanded="true" signature="6623:8607" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="6634:8606" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="6669:8593" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7044:8592" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7544:7632" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="7679:7893" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8645:8723" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8821:8873" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="8919:9022" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="9056:9214" placeholder="..." />
-            <marker date="1439330688000" expanded="true" signature="9248:9390" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="6645:8772" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="6702:8771" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="7464:8758" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="7839:8757" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8339:8427" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8474:8688" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8810:8888" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="8986:9038" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9084:9187" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9221:9379" placeholder="..." />
+            <marker date="1439333810000" expanded="true" signature="9413:9555" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="4911" max-vertical-offset="9804">
+          <caret line="269" column="17" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.554217" vertical-offset="0" max-vertical-offset="1045">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/PagesContentModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5325132" vertical-offset="5911" max-vertical-offset="7258">
+          <caret line="343" column="21" selection-start-line="343" selection-start-column="21" selection-end-line="343" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
