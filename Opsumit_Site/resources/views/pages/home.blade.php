@@ -1,7 +1,7 @@
 @extends('home_master')
 
 @section('title')
-    <title>HOWDY {{$pageTitle}}</title>
+    <title>{{$pageTitle}}</title>
 @stop
 
 
@@ -168,12 +168,12 @@
            }
 
 
-           var isi_click_flag = false;
+
 
            $(document).ready(function(){
 
-               $("#popup_main_menu").hide();
 
+/*
                $(".isi_expand_btn").bind('touchstart click', function(e){
                    e.stopPropagation(); e.preventDefault();
 
@@ -193,8 +193,11 @@
                    $("#popup_main_menu").show();
                });
 
-
-
+                $(".close_btn").bind('touchstart click', function(e){
+                    e.stopPropagation(); e.preventDefault();
+                    $("#popup_main_menu").hide();
+                });
+*/
 
                $(window).scroll(function(){
 

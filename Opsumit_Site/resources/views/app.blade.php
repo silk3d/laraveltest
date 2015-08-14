@@ -18,32 +18,21 @@
 
 @include("shared.navigation")
 
-@yield('title')
-
-<div class="container">
-    <div class="home_background">Should be a background image</div>
+<div id="landing_page_content_wrapper">
+    <div id="landing_page_content"></div>
 
     @yield('content')
 
-
-    @if (count($navItems))
-        <ul>
-            @foreach($navItems as $navItem)
-                <li class="nav" onclick="gotoPage('{{$navItem['target']}}')">{{$navItem['name']}}</li>
-                @if ($navItem['target'] != "/resources")
-                    &nbsp;|&nbsp;
-
-                @endif
-            @endforeach
-        </ul>
-    @else
-        <p>No Menu items exist.</p>
-    @endif
-
-        @yield('sections')
-
 </div>
+<div>
 
+<a id="isi_anchor_style" name="isi_anchor">&nbsp;</a>
+
+<div class="isi_outer desktop">
+    <div class="isi_inner">
+        @include('shared.isi')
+    </div>
+</div>
 
 </body>
 </html>

@@ -4,18 +4,47 @@
     <title>{{$pageTitle}}</title>
 @stop
 
+@section('bread_crumb')
+    <div id="bread_crumb">HOME / EFFICACY</div>
+@stop
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{$pageTitle}}</title>
+    </head>
+    <body>
+
+<div class="isiScrollMarker">&nbsp;</div>
 
 @section('content')
-<div class="content">
-    <div class="title">{{$pageTitle}}</div>
+
+
+<div class="isi_outer desktop">
+    <div class="isi_inner">
+        @include('shared.isi')
+    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
 
 <script>
 
-    document.write("Top of page");
 
     // var linkedFrom = "";
-
+/*
     var linkedFrom = "www.bing.com";
 
     var searchEnginesPattern = /(google|yahoo|bing|ask|aol)/g;
@@ -32,9 +61,9 @@
     } else if(isBannerLink ) {
 
     } else if( isEmailLink )
+*/
 
-
-    document.write("Is search engine: " + isSearchEngine + " search type: " + searchEnginesResult[0] ) ;
+   //  document.write("Is search engine: " + isSearchEngine + " search type: " + searchEnginesResult[0] ) ;
 
 
 

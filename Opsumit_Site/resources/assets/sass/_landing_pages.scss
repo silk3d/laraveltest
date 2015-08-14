@@ -1,0 +1,109 @@
+$inner_box_panel_size:190px;
+$box_panel_color:#5862a9;
+$max_content_width:1024px;
+$box_panel_hover_color:#68bacc;
+
+#landing_page_content_wrapper {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 200px;
+  // background-color: #004444;
+}
+
+#landing_page_content {
+  width: 100%;
+  max-width: $max_content_width;
+  height: auto;
+  text-align: center;
+  background-color: #004444;
+}
+
+h1.landing_page_heading {
+  width: 100%;
+  max-width: $max_content_width;
+  margin: 0 auto;
+  margin-left: 50px;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  color:#5ea2b3;
+  font-size: 4rem;
+  font-family: Opsumit-Bold;
+
+}
+
+h2.landing_page_subheading {
+  width: 100%;
+  max-width: $max_content_width;
+  margin: 0 auto;
+  margin-left: 50px;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: Opsumit-Bold;
+  color:$box_panel_color;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.boxwrapper {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.boxcontainer {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+
+.boxtop {
+  width: $inner_box_panel_size;
+  height: $inner_box_panel_size;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: $box_panel_color;
+  z-index: 10;
+  text-align: left;
+}
+
+.boxtop:hover {
+  background-color: $box_panel_hover_color;
+}
+
+.boxshadow {
+  width: $inner_box_panel_size;
+  height: $inner_box_panel_size;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 5;
+  opacity: .3;
+  background-color: #808080;
+
+}
+
+.boxtop span {
+  margin: 0 auto;
+  margin-top: 8%;
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 10px;
+  padding: 10%;
+  color: white;
+  font-size: 1.2rem;
+}

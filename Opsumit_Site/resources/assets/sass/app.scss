@@ -2,8 +2,10 @@
 
 @import '_navigation';
 @import '_isi';
+@import '_landing_pages';
 
 $section_height: 500px;
+$max_content_width:1024px;
 
 @font-face {
   font-family: "Opsumit";
@@ -41,7 +43,7 @@ body {
   width: 100%;
   // display: table;
   font-weight: 100;
-  font-family: 'Lato';
+  font-family: MyriadPro-Regular;
 }
 
 
@@ -142,18 +144,7 @@ body {
 }
 
 
-.home_background_original {
-  left: 50px;
-  display: block;
-  position: absolute;
-  width: 1000px;
-  height: auto;
-  background-image: url("http://laraveltest.app/images/home_background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  z-index: 100;
-}
+
 
 
 /*******  Buttons  **********/
@@ -203,6 +194,8 @@ $pi_btn_height: 35px;
   display:block;
   position: relative;
   float: left;
+  margin-top: 10px;
+  margin-left: 10px;
   margin-top: 30px;
   margin-bottom: 120px;
   padding-top: 15px;
@@ -274,7 +267,9 @@ $pi_btn_height: 35px;
 
 .template_outer, .isi_outer {
   text-align: center;
+  font-weight: bold;
 }
+
 
 .template_outer {
   padding-left: 5px;
@@ -288,8 +283,8 @@ $pi_btn_height: 35px;
   height: 480px;
   margin: 0;
   padding: 5px;
+  font-weight: bold;
 }
-
 
 
 #section1, #section2 #section3, #section4, #section5, #section6 {
@@ -317,7 +312,7 @@ $pi_btn_height: 35px;
   width: 60%;
   height: auto;
   max-width: 400px;
-  min-width: 350px;
+  min-width: 200px;
 }
 
 #section2_img {
@@ -332,7 +327,7 @@ $pi_btn_height: 35px;
   top: 25%;
   width: 75%;
   max-width: 500px;
-  min-width: 350px;
+  min-width: 300px;
   position: relative;
   margin-right: 20%;
 }
@@ -437,21 +432,24 @@ h1, h4 {
   text-align: left;
   position: relative;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-left: 10px;
 }
 
-h1.home_header {
+h1.home_header, h1.header_text {
   color:#5ea2b3;
-
   text-align: left;
   position: relative;
-  display: block;
-  font-size: 5rem;
+  display: inline-block;
+  font-size: 3rem;
   font-family: Opsumit-Bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h4 {
-  font-size: .6rem;
+  //font-size: .6rem;
+  color:#666666;
 }
 
 
@@ -504,7 +502,8 @@ h4 {
 }
 
 
-/*********  placeholder styles  *******/
+/*********  landing page styles  *******/
+
 
 
 

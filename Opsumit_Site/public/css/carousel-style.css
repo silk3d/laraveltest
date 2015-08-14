@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_Opsumit-Bold";
+  src: url("../fonts/Opsumit-Bold.eot");
+  src: local("☺"), url("../fonts/Opsumit-Bold.woff") format("woff"), url("../fonts/Opsumit-Bold.ttf") format("truetype"), url("../fonts/Opsumit-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.slideshow {
+  background-color: #f6f6f6;
+  display: block;
+  margin: 0 auto;
+  max-width: 1067.5px; }
+
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.carousel-section {
+  overflow-x: visible;
+  width: 90%; }
+
+.slick-list {
+  overflow: visible; }
+
+.slick-slide {
+  z-index: 99999;
+  background-color: #e0e0e0;
+  text-align: center;
+  height: 140px;
+  width: 187.5px;
+  -webkit-transition: all 0.25s;
+  transition: 0.25s; }
+
+.hidden-content {
+  display: none; }
+
+.slide-heading {
+  background-color: #88b6c1;
+  height: 55px;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: 0.25s;
+  transition: 0.25s; }
+
+.slide-subhead {
+  height: 85px;
+  font-family: myriad pro;
+  font-size: 16px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #626262;
+  -webkit-transition: all 0.25s;
+  transition: 0.25s; }
+
+.slide-content h2, .slide-content-hidden h2 {
+  margin: 0;
+  font-family: "Conv_Opsumit-Bold";
+  color: #ffffff;
+  font-size: 19px;
+  vertical-align: center; }
+
+.slide-content-hidden img {
+  margin: 0px auto -15px auto;
+  height: 50%;
+  width: 50%; }
+
+.slide-content-hidden span {
+  font-family: myriad pro;
+  font-size: 11.4285714286px;
+  color: #ffffff; }
+
+.slide-content-hidden h2 {
+  font-family: "Conv_Opsumit-Bold";
+  color: #ffffff;
+  font-size: 13.5714285714px; }
+
+.slide-content {
+  display: block;
+  height: 75%;
+  background-color: #e0e0e0; }
+
+.arrow {
+  z-index: 1;
+  display: block;
+  background-color: #f6f6f6;
+  height: 100%;
+  width: 5%; }
+
+.prev-arrow, .next-arrow {
+  height: 100%;
+  background-color: #f6f6f6; }
+
+.prev-arrow {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  float: right; }
+
+.prev-arrow g polygon, .next-arrow g polygon {
+  fill: #88b6c1;
+  transition: all 0.25s; }
+
+.arrow:hover g polygon {
+  fill: #d6718f; }
+
+.slick-slide:hover .slide-content {
+  display: none; }
+
+.slick-slide:hover .hidden-content {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.slick-slide:hover {
+  z-index: 5000;
+  background-color: #68bacc;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transform: scale(1.42);
+  transform: scale(1.42); }
+
+.first-slide:hover {
+  -webkit-transform: translateX(25px) scale(1.42);
+  transform: translateX(25px) scale(1.42); }
+
+.last-slide:hover {
+  -webkit-transform: translateX(-25px) scale(1.42);
+  transform: translateX(-25px) scale(1.42); }
+
+.shadow-right {
+  box-shadow: inset -52px 0px 0px 0px rgba(0, 0, 0, 0.1); }
+
+.shadow-left {
+  box-shadow: inset 52px 0px 0px 0px rgba(0, 0, 0, 0.1); }
