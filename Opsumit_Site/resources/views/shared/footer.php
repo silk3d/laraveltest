@@ -1,36 +1,4 @@
 
-
-<div id="share_bar_wrapper"><div id="share_bar_left"><div id="share_divider">&nbsp;</div>
- </div></div>
-
-<div class="navigation_outer">
-    <div class="navigation_inner">
-
-        <ul class="navigation">
-            <li class="nav_logo">
-                <img id="logo_img" src="/images/opsumit_logo.png"/>
-            </li>
-            <li class="nav_menu">
-                &nbsp;
-            </li>
-
-            <li class="nav_register">
-                &nbsp;
-            </li>
-
-            <li class="nav_rems">
-                &nbsp;
-            </li>
-            <li class="nav_user_type">
-                <p id="usertype_text"> I AM A: US HEALTHCARE PROFESSIONAL </p>
-            </li>
-        </ul>
-
-
-
-    </div>
-</div>
-
 <div id="popup_main_menu">&nbsp;
     <div id="popup_sitemap">
         <div class="close_btn">&nbsp;</div>
@@ -111,57 +79,57 @@
      Route::get('/resources', 'PagesController@pah_resources');
      */
 
-        console.log("document is ready")
-$(document).ready(function(){
-    $("#efficacy_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/efficacy";
-    });
+    console.log("document is ready")
+    $(document).ready(function(){
+        $("#efficacy_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/efficacy";
+        });
 
-    $("#seraphin_study_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/seraphin_study";
-    });
+        $("#seraphin_study_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/seraphin_study";
+        });
 
-    $("#safety_profile_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/safety_profile";
-    });
+        $("#safety_profile_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/safety_profile";
+        });
 
-    $("#about_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/about";
-    });
+        $("#about_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/about";
+        });
 
-    $("#prescribing_opsumit_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/prescribing";
-    });
+        $("#prescribing_opsumit_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/prescribing";
+        });
 
-    $("#services_and_support_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/services";
-    });
+        $("#services_and_support_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/services";
+        });
 
-    $("#pah_resources_link").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/resources";
-    });
+        $("#pah_resources_link").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/resources";
+        });
 
 
-    $("#logo_img").bind("touchstart click", function(e) {
-        e.stopPropagation();
-        e.preventDefault();
-        window.location.href = "/home";
+        $("#logo_img").bind("touchstart click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            window.location.href = "/home";
+        });
     });
-});
 
 
 
